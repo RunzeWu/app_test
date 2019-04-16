@@ -1,0 +1,7 @@
+automationName: UiAutomator2    #自动化引擎
+platformName: Android   #平台名称
+platformVersion: 7.1   #平台版本
+deviceName: Android Emulator   #设备名称
+noReset: True   #不重置应用
+appPackage: com.lemon.lemonban   #包名
+appActivity: com.lemon.lemonban.activity.WelcomeActivity  #入口页面
