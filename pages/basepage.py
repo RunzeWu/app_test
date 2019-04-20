@@ -90,6 +90,9 @@ class BasePage:
             self.save_webImg(model_name)
             raise
 
+    def clear_input(self, locator,model_name):
+        ele = self.get_element(locator, model_name="model")
+        return ele.clear()
     #获取元素的属性
     def get_element_attribute(self,locator,attr,model_name="model"):
         # 元素查找
@@ -153,12 +156,20 @@ class BasePage:
         time.sleep(0.5)
 
     # 列表滑动到底部
-    def scroll_list(self):
+    def scroll_list_to_bottom(self):
         new = self.driver.page_source
         old = ''
         while old != new:
             old = new
             self.swipe_up_down()
+            new = self.driver.page_source
+
+    def scroll_list_to_top(self):
+        new = self.driver.page_source
+        old = ''
+        while old != new:
+            old = new
+            self.swipe_up_down(start_per=0.1,end_per=0.9)
             new = self.driver.page_source
 
     # 翻页查找某个字符串
@@ -172,12 +183,10 @@ class BasePage:
             new = self.driver.page_source
             if new.find(str):
                 locator = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(str))
-                ele = self.wait_eleVisible(locator)
+                return self.wait_eleVisible(locator)
                 # WebDriverWait(driver, 20).until(EC.visibility_of_element_located((MobileBy.ANDROID_UIAUTOMATOR,
                 #                                                                   'new UiSelector().text("逻辑思维题")')))
                 # driver.find_element_by_android_uiautomator('new UiSelector().text("逻辑思维题")').click()
-                ele.click()
-                break
 
     # toast获取
     def get_toast_msg(self,text):
@@ -186,7 +195,7 @@ class BasePage:
         # uiautomator2
         # 等待元素存在，而不是元素可见。
         WebDriverWait(self.driver,10,0.01).until(EC.presence_of_element_located((MobileBy.XPATH,ele_loc)))
-        return self.get_element((MobileBy.XPATH,ele_loc))
+        return self.get_element((MobileBy.XPATH,ele_loc)).text
 
 
     # h5切换

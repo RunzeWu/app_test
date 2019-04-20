@@ -6,12 +6,12 @@
 # File      :__init__.py
 # Software  :PyCharm Community Edition
 from pages.basepage import BasePage
+from appium.webdriver.common.mobileby import MobileBy
 
 class IndexPage(BasePage):
 
     def switch_nav(self,nav_name):
-        ele_loc = 'new UiSelector().text("{}")'.format(nav_name)
+        ele_loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(nav_name))
         # 等待
-        # self.click_element()
-        pass
+        self.wait_eleVisible(ele_loc,model_name="index_page").click()
 
