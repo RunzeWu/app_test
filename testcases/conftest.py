@@ -4,7 +4,7 @@
 # Author: 简
 # Time: 2019/4/3
 import yaml
-from Common.dir_config import caps_dir
+from common.contants import caps_dir
 import os
 from appium import webdriver
 import pytest

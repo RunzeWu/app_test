@@ -1,8 +1,10 @@
-#!/usr/bin/python3
+#！/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: index_page
-# Author: 简
-# Time: 2019/4/3
+# @Time     :2019/4/14 22:54
+# @Author   :Yosef-夜雨声烦
+# E-mail    :wurz529@foxmail.com
+# File      :__init__.py
+# Software  :PyCharm Community Edition
 from pages.basepage import BasePage
 
 class IndexPage(BasePage):
