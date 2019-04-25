@@ -67,3 +67,13 @@ class TikuPage(BasePage):
     # 题目 开关
     def switch_answer(self,action="False"):
         pass
+
+    def find_login_ele(self):
+        source = self.driver.page_source
+        if "去登录" in source:
+            return True
+        else:
+            return False
+
+    def go_login_page(self):
+        return self.click_element(tl.go_login_locator)
