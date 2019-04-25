@@ -19,4 +19,4 @@ class TiKuPageLocator:
 
     third_level_button_locator = (MobileBy.ID, "com.lemon.lemonban:id/third_level")
 
-    timu_locator = (MobileBy.ID,'android.widget.RelativeLayout')
+    timu_locator = (MobileBy.CLASS_NAME,'android.widget.RelativeLayout')

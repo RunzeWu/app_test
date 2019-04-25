@@ -27,16 +27,17 @@ class BasePage:
 
 
     #等待元素可见
-    def wait_eleVisible(self,locator,timeout=30,poll_frequency=0.5,model_name="model"):
+    def wait_eleVisible(self,locator,timeout=30,poll_frequency=0.5,model_name="model")->WebElement:
         logger.info("等待元素可见：{}".format(locator))
         try:
             wait_start_time = time.time()
-            WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+            ele = WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
             #获取结束等待的时间
             wait_end_time = time.time()
             #获取等待的总时长 - 以秒为单位
             wait_time = wait_end_time - wait_start_time
             logger.info("元素已可见。等待元素可见总时长:{}".format(wait_time))
+            return ele
         except:
             #写进日志
             logger.exception("等待元素可见超时。")
@@ -59,6 +60,18 @@ class BasePage:
             self.save_webImg(model_name)
             raise
 
+    def get_elements(self, locator, model_name="model"):
+        logger.info("查找模块：{}下的元素：{}".format(model_name, locator))
+        try:
+            ele = self.driver.find_elements(*locator)
+            logger.info("查找到元素成功")
+            return ele
+        except:
+                # 写进日志
+            logger.exception("查找元素失败。")
+                # 截图 - 直接通过图片名称就知道截的是什么图。
+            self.save_webImg(model_name)
+            raise
 
     #点击元素
     def click_element(self,locator,model_name="model"):

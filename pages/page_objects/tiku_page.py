@@ -6,6 +6,9 @@
 # File      :__init__.py
 # Software  :PyCharm Community Edition
 import random
+
+from appium.webdriver.common.touch_action import TouchAction
+
 from pages.page_locators.tiku_page_locator import TiKuPageLocator as tl
 from pages.basepage import BasePage
 
@@ -19,7 +22,7 @@ class TikuPage(BasePage):
         tiku_titles = []
         old = ''
         while old != new:
-            for ele in self.get_element(tl.titles_locator, model_name="tiku"):
+            for ele in self.get_elements(tl.titles_locator, model_name="tiku"):
                 tiku_titles.append(ele.text)
             old = new
             self.swipe_up_down()
@@ -45,7 +48,17 @@ class TikuPage(BasePage):
 
     # 选择题目套题？如何选？随机、选第1个，选最后1个
     def select_topic_suite(self):
-        return self.get_element(tl.timu_locator,model_name="tikuPage").click()
+        '''
+        准备改用 press方法执行
+        :return:
+        '''
+        # return self.click_element(tl.timu_locator,model_name="tikuPage")
+        lockview_size = self.driver.get_window_size()
+        loc_height = lockview_size["height"]
+        loc_width = lockview_size["width"]
+        tc = TouchAction(self.driver)
+        tc.press(x=loc_width*0.5, y=loc_height*0.15).wait(200).release().perform()
+
 
     # 收藏 开关
     def switch_favirate(self,aciton="False"):

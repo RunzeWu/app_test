@@ -7,11 +7,14 @@
 # Software  :PyCharm Community Edition
 from pages.basepage import BasePage
 from appium.webdriver.common.mobileby import MobileBy
+from pages.page_locators.index_page_locator import IndexPageLocator as il
 
 class IndexPage(BasePage):
 
-    def switch_nav(self,nav_name):
-        ele_loc = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(nav_name))
+    def switch_tiku(self):
         # 等待
-        self.wait_eleVisible(ele_loc,model_name="index_page").click()
+        self.wait_eleVisible(locator=il.tk_locator,model_name="index_page").click()
+
+    def switch_mylemon(self):
+        self.wait_eleVisible(locator=il.mylemon_locator,model_name="index_page").click()
 

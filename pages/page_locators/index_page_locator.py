@@ -8,6 +8,6 @@
 from appium.webdriver.common.mobileby import MobileBy
 
 class IndexPageLocator:
-    index_locator = (MobileBy.ANDROID_UIAUTOMATOR,'new UiSelector().text("主页")')
-    tk_locator = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("题库")')
-    mylemon_locator = (MobileBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("我的柠檬")')
+    index_locator = (MobileBy.ID, 'com.lemon.lemonban:id/navigation_home')
+    tk_locator = (MobileBy.ID, 'com.lemon.lemonban:id/navigation_tiku')
+    mylemon_locator = (MobileBy.ID, 'com.lemon.lemonban:id/navigation_my')
