@@ -1,17 +1,21 @@
-#!/usr/bin/python3
+#!usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: test_login
-# Author: 简
-# Time: 2019/4/8
+# @Time     : 2019/4/25 10:12
+# @Author   : Yosef-夜雨声烦
+# @Email    : wurz529@foxmail.com
+# @File     : test_login.py
+# @Software : PyCharm
+import pytest
+from pages.page_objects.login_page import LoginPage
+from pages.page_objects.index_page import IndexPage
+
 
 class TestLogin:
 
-    #前置：不记住用户状态。那么每次打开app，都是未登陆状态。
-
-    def test_login_failed(self):
-        #未登陆页面的状态
-        pass
-
-    def test_login_success(self):
-        #成功后的状态
+    def test_login(self):
+        '''
+        前提条件：打开App，保证未登录
+        后置条件：退出登录
+        :return:
+        '''
         pass
