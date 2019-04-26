@@ -8,8 +8,8 @@
 from pages.basepage import BasePage
 from pages.page_locators.myLemon_page_locator import MyLemonLocator as ml
 
-class MyLemonPage(BasePage):
 
+class MyLemonPage(BasePage):
 
     def click_my_lemon_avatar(self):
         return self.click_element(locator=ml.my_lemon_avatar_locator,model_name="MyLemonPage")

@@ -43,3 +43,13 @@ class LoginPage(BasePage):
 
     def get_wrong_login_toast_msg(self):
         return self.get_toast_msg("错误的账号信息")
+
+    def login(self, mobile, pwd):
+        self.click_mobile_element()
+        self.input_mobile(mobile)
+        self.click_pwd_ele()
+        self.input_pwd(pwd)
+        self.click_login_button()
+
+
+
