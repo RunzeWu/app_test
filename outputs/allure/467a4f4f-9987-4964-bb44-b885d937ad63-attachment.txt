@@ -1,0 +1,10 @@
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.2489924430847168
+basepage.py                 64 INFO     查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type')
+basepage.py                 67 INFO     查找到元素成功
+basepage.py                 64 INFO     查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type')
+basepage.py                 67 INFO     查找到元素成功
+basepage.py                 31 INFO     等待元素可见：('-android uiautomator', 'new UiSelector().text("安全测试")')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.3700287342071533
+basepage.py                 51 INFO     查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/second_level')
+basepage.py                 54 INFO     查找到元素成功

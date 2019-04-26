@@ -76,7 +76,7 @@ class BasePage:
     #点击元素
     def click_element(self,locator,model_name="model"):
         #元素查找
-        ele = self.get_element(locator,model_name)
+        ele = self.wait_eleVisible(locator,model_name=model_name)
         #元素操作
         logger.info("点击操作：模块 {} 下的元素 {}".format(model_name,locator))
         try:

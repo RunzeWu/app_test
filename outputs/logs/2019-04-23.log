@@ -1,0 +1,260 @@
+2019-04-23 21:26:59,968 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("题库")') - [basepage.py:31]
+2019-04-23 21:27:04,409 - basepage - INFO - 元素已可见。等待元素可见总时长:4.440445899963379 - [basepage.py:39]
+2019-04-23 21:30:46,836 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("题库")') - [basepage.py:31]
+2019-04-23 21:30:50,928 - basepage - INFO - 元素已可见。等待元素可见总时长:4.0918128490448 - [basepage.py:39]
+2019-04-23 21:36:22,916 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("我的柠檬")') - [basepage.py:31]
+2019-04-23 21:36:27,150 - basepage - INFO - 元素已可见。等待元素可见总时长:4.232425212860107 - [basepage.py:39]
+2019-04-23 21:38:33,331 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("题库")') - [basepage.py:31]
+2019-04-23 21:38:37,509 - basepage - INFO - 元素已可见。等待元素可见总时长:4.176871061325073 - [basepage.py:39]
+2019-04-23 21:48:40,223 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 21:48:47,170 - basepage - INFO - 元素已可见。等待元素可见总时长:6.867753982543945 - [basepage.py:39]
+2019-04-23 21:52:48,871 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 21:52:53,900 - basepage - INFO - 元素已可见。等待元素可见总时长:5.029133081436157 - [basepage.py:39]
+2019-04-23 22:31:19,974 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_my') - [basepage.py:31]
+2019-04-23 22:31:24,201 - basepage - INFO - 元素已可见。等待元素可见总时长:4.208099126815796 - [basepage.py:39]
+2019-04-23 22:31:26,160 - basepage - INFO - 查找模块：MyLemonPage下的元素：('class name', 'android.widget.ImageButton') - [basepage.py:51]
+2019-04-23 22:31:26,744 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:31:26,744 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('class name', 'android.widget.ImageButton') - [basepage.py:69]
+2019-04-23 22:34:25,832 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_my') - [basepage.py:31]
+2019-04-23 22:34:31,052 - basepage - INFO - 元素已可见。等待元素可见总时长:5.219460964202881 - [basepage.py:39]
+2019-04-23 22:34:31,274 - basepage - INFO - 查找模块：MyLemonPage下的元素：('class name', 'android.widget.ImageButton') - [basepage.py:51]
+2019-04-23 22:34:33,256 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:34:33,256 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('class name', 'android.widget.ImageButton') - [basepage.py:69]
+2019-04-23 22:34:33,532 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:51]
+2019-04-23 22:34:34,780 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:34:34,780 - basepage - INFO - 点击操作：模块 SettingPage 下的元素 ('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:69]
+2019-04-23 22:36:22,092 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_my') - [basepage.py:31]
+2019-04-23 22:36:26,928 - basepage - INFO - 元素已可见。等待元素可见总时长:4.8347859382629395 - [basepage.py:39]
+2019-04-23 22:36:27,154 - basepage - INFO - 查找模块：MyLemonPage下的元素：('class name', 'android.widget.ImageButton') - [basepage.py:51]
+2019-04-23 22:36:28,833 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:36:28,833 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('class name', 'android.widget.ImageButton') - [basepage.py:69]
+2019-04-23 22:36:29,028 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:51]
+2019-04-23 22:36:30,282 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:36:30,282 - basepage - INFO - 点击操作：模块 SettingPage 下的元素 ('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:69]
+2019-04-23 22:36:30,466 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/tv_sure') - [basepage.py:51]
+2019-04-23 22:36:31,359 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:36:31,359 - basepage - INFO - 点击操作：模块 SettingPage 下的元素 ('id', 'com.lemon.lemonban:id/tv_sure') - [basepage.py:69]
+2019-04-23 22:39:06,599 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_my') - [basepage.py:31]
+2019-04-23 22:39:10,913 - basepage - INFO - 元素已可见。等待元素可见总时长:4.3134260177612305 - [basepage.py:39]
+2019-04-23 22:39:11,153 - basepage - INFO - 查找模块：MyLemonPage下的元素：('class name', 'android.widget.ImageButton') - [basepage.py:51]
+2019-04-23 22:39:11,938 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:39:11,939 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('class name', 'android.widget.ImageButton') - [basepage.py:69]
+2019-04-23 22:39:12,168 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:51]
+2019-04-23 22:39:13,272 - basepage - ERROR - 查找元素失败。 - [basepage.py:58]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 53, in get_element
+    ele =  self.driver.find_element(*locator)
+  File "C:\Python34\lib\site-packages\appium\webdriver\webdriver.py", line 258, in find_element
+    'value': value})['value']
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2019-04-23 22:39:14,829 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/SettingPage_2019-04-23-22-39-13.png - [basepage.py:133]
+2019-04-23 22:44:12,736 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_my') - [basepage.py:31]
+2019-04-23 22:44:19,341 - basepage - INFO - 元素已可见。等待元素可见总时长:6.587296962738037 - [basepage.py:39]
+2019-04-23 22:44:21,154 - basepage - INFO - 查找模块：MyLemonPage下的元素：('class name', 'android.widget.ImageButton') - [basepage.py:51]
+2019-04-23 22:44:22,121 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:22,122 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('class name', 'android.widget.ImageButton') - [basepage.py:69]
+2019-04-23 22:44:22,343 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:51]
+2019-04-23 22:44:23,745 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:23,745 - basepage - INFO - 点击操作：模块 SettingPage 下的元素 ('id', 'com.lemon.lemonban:id/logout_button') - [basepage.py:69]
+2019-04-23 22:44:23,970 - basepage - INFO - 查找模块：SettingPage下的元素：('id', 'com.lemon.lemonban:id/tv_sure') - [basepage.py:51]
+2019-04-23 22:44:25,026 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:25,026 - basepage - INFO - 点击操作：模块 SettingPage 下的元素 ('id', 'com.lemon.lemonban:id/tv_sure') - [basepage.py:69]
+2019-04-23 22:44:25,187 - basepage - INFO - 查找模块：MyLemonPage下的元素：('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout') - [basepage.py:51]
+2019-04-23 22:44:26,745 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:26,745 - basepage - INFO - 点击操作：模块 MyLemonPage 下的元素 ('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_layout') - [basepage.py:69]
+2019-04-23 22:44:26,991 - basepage - INFO - 查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_mobile') - [basepage.py:51]
+2019-04-23 22:44:28,834 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:29,718 - basepage - INFO - 查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_mobile') - [basepage.py:51]
+2019-04-23 22:44:30,367 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:30,368 - basepage - INFO - 输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_mobile')输入文本 17751810779 - [basepage.py:84]
+2019-04-23 22:44:31,197 - basepage - INFO - 查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_password') - [basepage.py:51]
+2019-04-23 22:44:31,698 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:31,900 - basepage - INFO - 查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_password') - [basepage.py:51]
+2019-04-23 22:44:32,430 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:32,430 - basepage - INFO - 输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_password')输入文本 810779 - [basepage.py:84]
+2019-04-23 22:44:33,175 - basepage - INFO - 查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/btn_login') - [basepage.py:51]
+2019-04-23 22:44:33,684 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:44:33,684 - basepage - INFO - 点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/btn_login') - [basepage.py:69]
+2019-04-23 22:49:06,360 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 22:49:13,287 - basepage - INFO - 元素已可见。等待元素可见总时长:6.903642892837524 - [basepage.py:39]
+2019-04-23 22:49:16,668 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:51]
+2019-04-23 22:49:17,021 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:52:31,718 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 22:52:36,709 - basepage - INFO - 元素已可见。等待元素可见总时长:4.989755868911743 - [basepage.py:39]
+2019-04-23 22:52:39,900 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 22:52:40,351 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 22:54:21,610 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 22:54:26,705 - basepage - INFO - 元素已可见。等待元素可见总时长:5.093515157699585 - [basepage.py:39]
+2019-04-23 22:54:29,591 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 22:54:30,006 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 22:54:35,368 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 22:54:35,726 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 22:54:54,659 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("Java自动化")') - [basepage.py:31]
+2019-04-23 22:54:55,369 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7097921371459961 - [basepage.py:39]
+2019-04-23 22:54:57,108 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/third_level') - [basepage.py:51]
+2019-04-23 22:54:57,355 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 22:54:57,589 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'android.widget.RelativeLayout') - [basepage.py:51]
+2019-04-23 22:54:58,644 - basepage - ERROR - 查找元素失败。 - [basepage.py:58]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 53, in get_element
+    ele =  self.driver.find_element(*locator)
+  File "C:\Python34\lib\site-packages\appium\webdriver\webdriver.py", line 258, in find_element
+    'value': value})['value']
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2019-04-23 22:55:00,110 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/tikuPage_2019-04-23-22-54-58.png - [basepage.py:145]
+2019-04-23 22:59:25,140 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 22:59:29,879 - basepage - INFO - 元素已可见。等待元素可见总时长:4.738127946853638 - [basepage.py:39]
+2019-04-23 22:59:33,181 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 22:59:33,507 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 22:59:39,013 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 22:59:39,377 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 22:59:58,514 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("逻辑思维题")') - [basepage.py:31]
+2019-04-23 22:59:59,275 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7595870494842529 - [basepage.py:39]
+2019-04-23 23:00:01,152 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/third_level') - [basepage.py:51]
+2019-04-23 23:00:01,364 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:00:01,695 - basepage - INFO - 查找模块：tikuPage下的元素：('class name', 'android.widget.RelativeLayout') - [basepage.py:51]
+2019-04-23 23:00:03,138 - basepage - ERROR - 查找元素失败。 - [basepage.py:58]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 53, in get_element
+    ele =  self.driver.find_element(*locator)
+  File "C:\Python34\lib\site-packages\appium\webdriver\webdriver.py", line 258, in find_element
+    'value': value})['value']
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2019-04-23 23:00:05,097 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/tikuPage_2019-04-23-23-00-03.png - [basepage.py:145]
+2019-04-23 23:10:53,861 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:10:58,483 - basepage - INFO - 元素已可见。等待元素可见总时长:4.5975401401519775 - [basepage.py:39]
+2019-04-23 23:11:02,431 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:11:03,064 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:11:09,093 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:11:09,477 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:11:29,133 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("性能测试")') - [basepage.py:31]
+2019-04-23 23:11:29,876 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7429859638214111 - [basepage.py:39]
+2019-04-23 23:11:31,821 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/third_level') - [basepage.py:51]
+2019-04-23 23:11:32,050 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:11:32,334 - basepage - INFO - 查找模块：tikuPage下的元素：('-android uiautomator', 'new UiSelector().textContains("第一套")') - [basepage.py:51]
+2019-04-23 23:11:33,746 - basepage - ERROR - 查找元素失败。 - [basepage.py:58]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 53, in get_element
+    ele =  self.driver.find_element(*locator)
+  File "C:\Python34\lib\site-packages\appium\webdriver\webdriver.py", line 258, in find_element
+    'value': value})['value']
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2019-04-23 23:11:35,108 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/tikuPage_2019-04-23-23-11-33.png - [basepage.py:145]
+2019-04-23 23:18:09,871 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:18:14,859 - basepage - INFO - 元素已可见。等待元素可见总时长:4.9802610874176025 - [basepage.py:39]
+2019-04-23 23:18:18,132 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:18:18,538 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:18:23,973 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:18:24,319 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:18:43,739 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("Java自动化")') - [basepage.py:31]
+2019-04-23 23:18:44,442 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7019808292388916 - [basepage.py:39]
+2019-04-23 23:18:46,279 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/first_level') - [basepage.py:51]
+2019-04-23 23:18:46,540 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:18:46,783 - basepage - INFO - 查找模块：tikuPage下的元素：('class name', 'android.widget.LinearLayout') - [basepage.py:51]
+2019-04-23 23:18:48,284 - basepage - ERROR - 查找元素失败。 - [basepage.py:58]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 53, in get_element
+    ele =  self.driver.find_element(*locator)
+  File "C:\Python34\lib\site-packages\appium\webdriver\webdriver.py", line 258, in find_element
+    'value': value})['value']
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 29, in check_response
+    raise wde
+  File "C:\Python34\lib\site-packages\appium\webdriver\errorhandler.py", line 24, in check_response
+    super(MobileErrorHandler, self).check_response(response)
+  File "C:\Python34\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+2019-04-23 23:18:50,966 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/tikuPage_2019-04-23-23-18-48.png - [basepage.py:145]
+2019-04-23 23:37:30,458 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:37:37,526 - basepage - INFO - 元素已可见。等待元素可见总时长:7.027624130249023 - [basepage.py:39]
+2019-04-23 23:37:41,695 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:37:42,064 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:37:47,878 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:37:48,276 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:38:09,579 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("计算机基础")') - [basepage.py:31]
+2019-04-23 23:38:10,323 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7439639568328857 - [basepage.py:39]
+2019-04-23 23:38:12,359 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/third_level') - [basepage.py:51]
+2019-04-23 23:38:12,605 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:38:12,839 - basepage - INFO - 等待元素可见：('class name', 'android.widget.LinearLayout') - [basepage.py:31]
+2019-04-23 23:38:15,819 - basepage - INFO - 元素已可见。等待元素可见总时长:2.979728937149048 - [basepage.py:39]
+2019-04-23 23:40:12,415 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:40:26,285 - basepage - INFO - 元素已可见。等待元素可见总时长:13.850139856338501 - [basepage.py:39]
+2019-04-23 23:40:29,510 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:40:29,937 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:40:35,997 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:40:36,399 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:41:05,559 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("Linux")') - [basepage.py:31]
+2019-04-23 23:41:36,397 - basepage - ERROR - 等待元素可见超时。 - [basepage.py:43]
+Traceback (most recent call last):
+  File "D:\PYworkspace\app_test\pages\basepage.py", line 34, in wait_eleVisible
+    ele = WebDriverWait(self.driver,timeout,poll_frequency).until(EC.visibility_of_element_located(locator))
+  File "C:\Python34\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-04-23 23:41:46,826 - basepage - INFO - 截图成功，文件路径为：D:\PYworkspace\app_test\outputs/screenshots/model_2019-04-23-23-41-36.png - [basepage.py:145]
+2019-04-23 23:43:24,555 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:43:29,578 - basepage - INFO - 元素已可见。等待元素可见总时长:5.021265029907227 - [basepage.py:39]
+2019-04-23 23:43:32,783 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:43:33,193 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:43:39,470 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:43:39,909 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:44:00,345 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("MySQL数据库")') - [basepage.py:31]
+2019-04-23 23:44:16,441 - basepage - INFO - 元素已可见。等待元素可见总时长:16.096751928329468 - [basepage.py:39]
+2019-04-23 23:44:18,311 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/third_level') - [basepage.py:51]
+2019-04-23 23:44:18,577 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:44:18,829 - basepage - INFO - 查找模块：tikuPage下的元素：('class name', 'android.widget.LinearLayout') - [basepage.py:51]
+2019-04-23 23:44:20,255 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:44:20,256 - basepage - INFO - 点击操作：模块 tikuPage 下的元素 ('class name', 'android.widget.LinearLayout') - [basepage.py:81]
+2019-04-23 23:47:13,833 - basepage - INFO - 等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku') - [basepage.py:31]
+2019-04-23 23:47:24,324 - basepage - INFO - 元素已可见。等待元素可见总时长:10.475259065628052 - [basepage.py:39]
+2019-04-23 23:47:28,956 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:47:29,336 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:47:35,344 - basepage - INFO - 查找模块：tiku下的元素：('id', 'com.lemon.lemonban:id/fragment_category_type') - [basepage.py:64]
+2019-04-23 23:47:35,767 - basepage - INFO - 查找到元素成功 - [basepage.py:67]
+2019-04-23 23:47:56,469 - basepage - INFO - 等待元素可见：('-android uiautomator', 'new UiSelector().text("安全测试")') - [basepage.py:31]
+2019-04-23 23:47:57,207 - basepage - INFO - 元素已可见。等待元素可见总时长:0.7381041049957275 - [basepage.py:39]
+2019-04-23 23:47:59,335 - basepage - INFO - 查找模块：tikuPage下的元素：('id', 'com.lemon.lemonban:id/second_level') - [basepage.py:51]
+2019-04-23 23:47:59,604 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:47:59,855 - basepage - INFO - 查找模块：tikuPage下的元素：('class name', 'android.widget.RelativeLayout') - [basepage.py:51]
+2019-04-23 23:48:01,048 - basepage - INFO - 查找到元素成功 - [basepage.py:54]
+2019-04-23 23:48:01,048 - basepage - INFO - 点击操作：模块 tikuPage 下的元素 ('class name', 'android.widget.RelativeLayout') - [basepage.py:81]

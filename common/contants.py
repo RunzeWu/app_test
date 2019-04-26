@@ -19,7 +19,7 @@ htmlreport_dir =  os.path.join(base_dir,"outputs/reports")
 
 logs_dir =  os.path.join(base_dir,"outputs/logs")
 
-allure = os.path.join(base_dir, "allure")
+allure = os.path.join(base_dir, "outputs","allure")
 
 screenshot_dir = os.path.join(base_dir,"outputs/screenshots")
 file_name = time.strftime('%Y%m%d%H%M%S')

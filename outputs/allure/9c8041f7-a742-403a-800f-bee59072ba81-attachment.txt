@@ -1,0 +1,22 @@
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.10446739196777344
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 51 INFO     查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 51 INFO     查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 96 INFO     输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_mobile')输入文本 17751810779
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.5497715473175049
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 51 INFO     查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 51 INFO     查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 96 INFO     输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_password')输入文本 810779
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/btn_login')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.5827257633209229
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/btn_login')
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/navigation_tiku')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:3.383664846420288
+test_login.py               58 INFO     登录成功

@@ -1,0 +1,22 @@
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.11136603355407715
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 51 INFO     查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 51 INFO     查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_mobile')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 96 INFO     输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_mobile')输入文本 adassadd
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.5673036575317383
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 51 INFO     查找模块：model下的元素：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 51 INFO     查找模块：LoginPage下的元素：('id', 'com.lemon.lemonban:id/et_password')
+basepage.py                 54 INFO     查找到元素成功
+basepage.py                 96 INFO     输入操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/et_password')输入文本 dasdas
+basepage.py                 31 INFO     等待元素可见：('id', 'com.lemon.lemonban:id/btn_login')
+basepage.py                 39 INFO     元素已可见。等待元素可见总时长:0.5697510242462158
+basepage.py                 81 INFO     点击操作：模块 LoginPage 下的元素 ('id', 'com.lemon.lemonban:id/btn_login')
+basepage.py                 51 INFO     查找模块：model下的元素：('xpath', '//*[contains(@text,"手机号码格式不正确")]')
+basepage.py                 54 INFO     查找到元素成功
+test_login.py               41 INFO     获取toast:手机号码格式不正确成功

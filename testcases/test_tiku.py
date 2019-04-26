@@ -15,6 +15,8 @@ logger = get_logger('test_tiku')
 @pytest.mark.usefixtures('tiku_env')
 class TestTiku:
 
+    @pytest.mark.tiku
+    @pytest.mark.run
     def test_tiku(self, tiku_env):
         tiku_page = tiku_env
 
@@ -25,3 +27,6 @@ class TestTiku:
         except:
             raise
 
+
+if __name__ == '__main__':
+    pytest.main('-m tiku')

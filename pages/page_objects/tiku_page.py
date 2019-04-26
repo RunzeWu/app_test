@@ -7,6 +7,7 @@
 # Software  :PyCharm Community Edition
 import random
 
+import time
 from appium.webdriver.common.touch_action import TouchAction
 
 from pages.page_locators.tiku_page_locator import TiKuPageLocator as tl
@@ -53,6 +54,7 @@ class TikuPage(BasePage):
         :return:
         '''
         # return self.click_element(tl.timu_locator,model_name="tikuPage")
+        time.sleep(2)
         lockview_size = self.driver.get_window_size()
         loc_height = lockview_size["height"]
         loc_width = lockview_size["width"]

@@ -44,7 +44,7 @@ def is_login(driver):
 
 @pytest.fixture(scope="session")
 def start_app():
-    driver = basedriver(False)
+    driver = basedriver(True)
     yield driver
     driver.close_app()
     driver.quit()
@@ -63,6 +63,7 @@ def login_env(start_app):
         mylemon_page.click_icon()
         setting_page.click_logout()
         setting_page.click_confirm_button()
+        mylemon_page.click_my_lemon_avatar()
         # 退出登录
     else:
         tiku_page = TikuPage(driver)
@@ -75,7 +76,7 @@ def login_env(start_app):
 def tiku_env(start_app):
     driver = start_app
     index_page = IndexPage(driver)
-    index_page.switch_mylemon()
+    index_page.switch_tiku()
     tiku_page = TikuPage(driver)
     yield tiku_page
 

@@ -17,8 +17,10 @@ logger = get_logger('test_login')
 
 @pytest.mark.usefixtures("start_app")
 @pytest.mark.usefixtures("login_env")
+@pytest.mark.run
 class TestLogin:
 
+    @pytest.mark.login
     @pytest.mark.parametrize("value", wrong_login)
     def test_wrong_login(self, value, login_env):
 
@@ -27,7 +29,6 @@ class TestLogin:
         后置条件：退出登录
         :return:
         '''
-
         mobile = value['mobile']
         pwd = value['pwd']
         msg = value['expected']
@@ -36,12 +37,13 @@ class TestLogin:
         login_page.login(mobile, pwd)
 
         try:
-            actual = driver.get_toast_msg(msg)
+            actual = login_page.get_toast_msg(msg)
             logger.info('获取toast:{}成功'.format(actual))
         except:
             logger.error('Failed, 没有获取到toast')
             raise
 
+    @pytest.mark.login
     def test_correct_login(self, login_env):
         mobile = correct_login['mobile']
         pwd = correct_login['pwd']
@@ -60,3 +62,5 @@ class TestLogin:
             logger.error('FAILED! 登录失败')
             raise
 
+if __name__ == '__main__':
+    pytest.main('-m login')
